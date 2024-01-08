@@ -1,4 +1,4 @@
-const passGenerated = document.getElementById(pwgen);
+const passGenerated = document.getElementById("pwgen");
 
 // Chiedo il nome
 const yourName = prompt('Qual è il tuo nome?');
@@ -13,7 +13,7 @@ const yourColor = prompt('Qual è il tuo colore preferito?');
 console.log(yourColor);
 
 // Calcolo le 3 informazioni e le salvo
-const yourPassword = yourName + yourSurname + yourColor + 24;
+const yourPassword = yourName + yourSurname + yourColor + "24";
 console.log(yourPassword);
 
 // Stampo la variabile 
